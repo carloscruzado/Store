@@ -43,5 +43,14 @@ namespace Store.Controllers
         }
 
 
+        [HttpPost]
+        public void PostCategories(Category category)
+        {
+            _context.Add(category);
+            _context.SaveChanges();
+        }
+
+
+
     }
 }
