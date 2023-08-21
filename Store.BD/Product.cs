@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Serialization;
-
-
+﻿
 namespace Store.Db
 {
     public class Product
@@ -19,7 +12,7 @@ namespace Store.Db
 
 
         //foreigns
-        public virtual ICollection<Category> Category { get; set; }
+       public virtual ICollection<Category> Categories { get; set; }    
       
     }
 }
