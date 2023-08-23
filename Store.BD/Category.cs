@@ -9,7 +9,7 @@ namespace Store.Db
         public string Description { get; set; }
 
         //foreigns
-        public virtual ICollection<Product> Products { get; set; }
+        public virtual ICollection<Product>? Products { get; set; } 
 
     }
 }
