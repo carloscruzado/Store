@@ -11,8 +11,7 @@ namespace Store.Db
         public decimal Price { get; set; }
 
 
-        //foreigns
-       public virtual ICollection<Category> Categories { get; set; }    
+          
       
     }
 }
