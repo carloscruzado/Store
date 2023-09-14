@@ -11,7 +11,11 @@ namespace Store.Db
 
         public decimal Price { get; set; }
 
-       public Category Category { get; set; }      
+        public int Stock { get; set; }  
+
+        public DateTime expirationDate { get; set; }
+
+        public Category Category { get; set; } = default!;
       
     }
 }
